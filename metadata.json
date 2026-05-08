@@ -1,0 +1,7 @@
+{
+  "name": "NovaAdmin 专业版",
+  "description": "一个使用 React、TypeScript 和 Tailwind CSS 构建的现代、高性能且富有未来感的管理系统。具有玻璃拟态美学和顺滑的过渡效果。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
