@@ -311,7 +311,7 @@ const SettingsView: React.FC<SettingsViewProps> = ({ onAction, avatar, setAvatar
   const [activeTab, setActiveTab] = useState<'profile' | 'notifications' | 'security'>('profile');
   const [isSaving, setIsSaving] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [notifs, setNotifs] = useState({ system: true, business: true, marketing: false });
+  const [notifs, setNotifs] = useState({ system: true, business: true, marketing: false, security: false });
 
   const handleSave = () => {
     setIsSaving(true);
